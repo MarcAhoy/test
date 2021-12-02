@@ -1,8 +1,8 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
- 
+
+
 body {
   background-color: black;
 }
@@ -14,77 +14,86 @@ h4 {
   text-align: center;
   font-size: 30px;
   position: relative;
-  top: 2px;
+  top: 20px;
 }
  
-#button {  
-    width: 6em;
-    border: 3px solid white;
-    background: #ff0000;
-    border-radius: 5px;
-    width: 220px;
-    height: 40px;
-    border: 3px solid white;
-    position: absolute;
-    top: 80px;
-    right: 20%;
+
+button {
+  background-color: #ff0000;
+  border: solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 13px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  font-size: 23px;
+  margin: 6px 4px;
+  cursor: pointer;
 }
- 
-#button1 {  
-    width: 6em;
-    border: 3px solid white;
-    background: #ff0000;
-    border-radius: 5px;
-    width: 220px;
-    height: 40px;
-    border: 3px solid white;
-    position: absolute;
-    top: 80px;
-    right: 50%;
-    transform: translate(110px, 0px);
- }
- 
-#button2 {  
-    width: 6em;
-    border: 3px solid white;
-    background: #ff0000;
-    border-radius: 5px;
-    width: 220px;
-    height: 40px;
-    border: 3px solid white;
-    position: absolute;
-    top: 80px;
-    right: 300px;
- }
- 
-a {
-    display: block;
-    width: 100%;
-    line-height: 1.8em;
-    text-align: center;
+
+button1 {
+  background-color: #ff0000;
+  border: solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 13px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  font-size: 23px;
+  margin: 6px 4px;
+  cursor: pointer;
+}
+
+button2 {
+  background-color: #ff0000;
+  border: solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 13px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  font-size: 23px;
+  margin: 6px 4px;
+  cursor: pointer;
+}
+
+button:hover {
     color: black;
-    font-size: 23px;
-    font-family: Arial, sans-serif;
-    text-decoration: none;
-    border-radius: 5px;
+    background: #ff0000;
 }
-a:hover {
+
+button1:hover {
     color: black;
-    background: #ff4d4d;
+    background: #ff0000;
 }
- 
+
+button2:hover {
+    color: black;
+    background: #ff0000;
+}
+
+
 </style>
 </head>
 <body>
- 
- 
+
+
 <center><h4>Welocme To The HTLA Anti-Snitch Foundation</h4>
 
-<div id="button"><a href="top_offenders.html">Top Offenders</a></div>
+<center><a href="submit.html"><button class="button">SUBMIT A SNITCH</button></a>
 
-<center><div id="button1"><a href="submit.html">Submit An Offender</a></div>
- 
-<div id="button2"><a href="submit.html">Contact</a></div>
- 
+<a href="top_offenders.html"><button1 class="button">TOP OFFENDERS</button1></a>
+
+<a href="contact.html"><button2 class="button">CONTACT</button2></a></center>
+
 </body>
 </html>
